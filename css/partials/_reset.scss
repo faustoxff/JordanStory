@@ -5,6 +5,212 @@
 
 
     &::selection{
-        
+       background-color: rgba(165, 42, 42, 0.548)
+    }
+}
+.logo-nike{
+    display: flex;
+    height:5rem;
+    border-radius: 1rem;
+}
+
+
+
+.foto-Mjordan{
+    background-image: url("../img/HMBIHFNKXZFUHAUDUGW5FIR2YA.jpg");
+    background-size: cover;
+    height: 90vh;
+}
+
+
+.foto-j1{
+    width: 100%;
+    border: 0.15rem solid;
+    border-color: $mainColor;
+    padding: 3rem;  
+    border-radius: 5px;
+
+}
+
+
+.fotoj3{
+    width: 100.2%;
+}
+
+.fotoj4{
+    width: 93.5%;
+}
+
+
+.foto-j2{
+    width: 100%;
+    border: 0.15rem solid;
+    border-color: $mainColor; 
+    border-radius: 5px;
+}
+
+
+.foto-j3{
+    width: 100%;
+    border: 0.15rem solid;
+    border-color: $mainColor; 
+    border-radius: 5px;
+    margin-bottom: 0.3rem;
+}
+
+
+.foto-j4{
+    width: 100%;
+    border: 0.15rem solid;
+    border-color: $mainColor;
+    padding: 3rem;  
+    border-radius: 5px;
+}
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+.comercial-j1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem; 
+}
+
+
+
+.imagenMjordan-j2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.7rem;
+}
+
+
+
+.jordan3-comercial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+
+
+.contenedor-fotoj4{
+    display: flex;
+}
+
+.foto-MjordanJ4{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.imagen-MJJ4{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 0.5rem;
+    padding-left: 5px;
+}
+
+.imagen-MJJ4-2{
+    padding: 10px;
+}
+
+.links-j2{
+    text-decoration: none;
+    color: red 
+} .links-j2:hover{
+    color: rgb(139, 29, 29);
+}
+
+footer{
+    position: sticky;
+}
+
+.link-j4{
+    text-decoration: none;
+    color: rgb(255, 255, 255) 
+}.link-j4:hover{
+    color: rgb(139, 29, 29);
+}
+
+.foto-j1-1985{
+    width: 80%;
+}
+
+.foto-j4-1989{
+    width: 80%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .columna-comparacion {
+    flex: 1;
+    padding: 20px;
+    border: 2.5px solid $mainColor;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  .h2-comparacion {
+    text-align: center;
+    border: 3px solid $mainColor;
+    border-radius: 5px;
+    padding: 0.2rem;
+    background-color: $mainColor;
+    color: white;
+  }
+
+  .h3-comparacion {
+    text-align: center;
+  }
+  
+  .parrafo-comparacion{
+    font-weight: bold;
+  }
+
+nav-link{
+    transition: all 1ms;}
+    .nav-link:hover{
+        border-bottom: 2px solid white;
+        color: white;
+
+    .nav-link active{
+        color: white;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .foto-Mjordan{
+        background-image: url(../img/imagenMjordan-recortada.png);
+    }
+
+    .fotoj4{
+        width: 100%;
+    }
+
+    .fotoj3{
+        width: 100%;
+    }
+
+    ::-webkit-scrollbar{
+        background: none;
     }
 }
